@@ -19,18 +19,24 @@ func main() { // mainパッケージのmain関数がエントリポイント
 	arr03 := [2][2]int{{ 1, 2 }, {3, 4}} // 多次元配列
 
 	fmt.Println("################################")
+
 	fmt.Println(reflect.TypeOf(num01)) // fmt.Println()を使って標準出力できる。
 	fmt.Println(reflect.TypeOf(num02)) // reflect.TypeOf()は変数の型を返す。
+
 	fmt.Println("################################")
+
 	fmt.Println(string01)
 	fmt.Println(string02)
 	fmt.Println(bool01)
+
 	fmt.Println("################################")
+
 	fmt.Println(arr01[0])
 	fmt.Println(arr01[1])
 	fmt.Println(arr01[2])
 	fmt.Println(arr02)
 	fmt.Println(arr03[1][0])
+
 	fmt.Println("################################")
 
 
@@ -45,6 +51,7 @@ func main() { // mainパッケージのmain関数がエントリポイント
 	fmt.Println(x <= y) // true
 	fmt.Println(x == 2 && y != 3) // true
 	fmt.Println(x == 5 || y == 5) // true
+
 	fmt.Println("################################")
 
 	x += 2
@@ -53,6 +60,7 @@ func main() { // mainパッケージのmain関数がエントリポイント
 	fmt.Println(x) // 5
 	x--
 	fmt.Println(x) // 4
+
 	fmt.Println("################################")
 
 	// 条件分岐
@@ -74,6 +82,8 @@ func main() { // mainパッケージのmain関数がエントリポイント
 	} else {
 		fmt.Println("child")
 	}
+
+	fmt.Println("################################")
 
 	// 繰り返し処理
 	for i := 1; i <= 10; i++ {
